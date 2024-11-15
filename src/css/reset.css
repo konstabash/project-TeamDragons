@@ -14,12 +14,11 @@ p:last-child {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
