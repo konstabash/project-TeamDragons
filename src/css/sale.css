@@ -100,3 +100,28 @@
     line-height: 1.33;
     color: #fbfbfb;
 }
+
+@media only screen and (min-width: 768px) {
+    .sale-model-container{
+        padding: 60px;
+    }
+
+    .sale-model-heading{
+        max-width: 436px;
+    }
+
+    .sale-model-price-container{
+        margin-bottom: 30px;
+    }
+
+    .sale-model-text{
+        margin-bottom: 40px;
+    }
+
+    .sale-model-list{
+        max-width: 398px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+}
