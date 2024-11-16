@@ -1,0 +1,102 @@
+.section-sale {
+}
+.container {
+}
+.sale-header {
+    margin-bottom: 24px;
+}
+.sale-list {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.sale-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    /* width: 80px;
+    height: 80px; */
+    /* width: calc((100% - 15px) / 4); */
+    background-color: #f3f3f3;
+}
+.sale-img-container {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 100%;
+    /* height: 385px; */
+    background-color: #f3f3f3;
+}
+.sale-model-container {
+    border-radius: 30px;
+    width: 100%;
+    /* height: 561px; */
+    background-color: #3350e9;
+    padding: 48px 28px;
+}
+.sale-model-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+.sale-model-number {
+    font-weight: 400;
+    /* font-size: 14px; */
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+.sale-model-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    background-color: rgba(251, 251, 251, 0.1);
+    padding: 8px 12px;
+}
+.sale-model-last-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-model-price-container{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+.sale-model-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+.sale-model-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.sale-model-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    /* width: 128px;
+    height: 32px; */
+}
+.sale-model-feature {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
