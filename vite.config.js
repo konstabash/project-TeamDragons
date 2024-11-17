@@ -10,6 +10,10 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    server: {
+      host: '0.0.0.0', // Дозволяє доступ до сервера з будь-якого пристрою в тій же мережі
+      port: 5174, // Можна змінити порт за потреби
+    },
     build: {
       sourcemap: true,
       rollupOptions: {
