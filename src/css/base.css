@@ -4,32 +4,33 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-Regular.ttf');
+  src: url('/fonts/Gilroy/Gilroy-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-Medium.ttf');
+  src: url('/fonts/Gilroy/Gilroy-Medium.ttf');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-Semibold.ttf');
+  src: url('/fonts/Gilroy/Gilroy-Semibold.ttf');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-Bold.ttf');
+  src: url('/fonts/Gilroy/Gilroy-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
