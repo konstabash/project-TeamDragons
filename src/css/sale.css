@@ -1,5 +1,3 @@
-/* ----------------------SALE--------------------- */
-
 .sale-header {
     margin-bottom: 24px;
     font-weight: 600;
@@ -82,7 +80,9 @@
         display: flex;
     }
 }
-/* -----------------------SALE-MODEL---------------------– */
+
+
+
 
 .sale-model-container {
     border-radius: 30px;
