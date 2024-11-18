@@ -1,9 +1,5 @@
 /* ----------------------SALE--------------------- */
 
-.section-sale {
-}
-.container {
-}
 .sale-header {
     margin-bottom: 24px;
     font-weight: 600;
@@ -18,7 +14,6 @@
     width: 100%;
     margin-bottom: 20px;
 }
-
 
 .sale-list-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
@@ -40,6 +35,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    img{
+        max-width: none;
+    }
+
     .sale-header{
         margin-bottom: 40px;
         font-size: 48px;
@@ -49,6 +48,7 @@
     .sale-list{
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 0;
     }
 
     .sale-all-img-container{
@@ -60,12 +60,16 @@
         padding: 16px 18px;
     }
 
+    .sale-main-img{
+    }
+
     .sale-img-container{
         padding: 80px 112px;
     }
+
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
     .sale-img-container{
         padding: 80px 50px;
     }
@@ -192,7 +196,7 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
     .sale-model-heading{
         max-width: 389px;
     }
