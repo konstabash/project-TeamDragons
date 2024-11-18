@@ -144,7 +144,24 @@ input:focus {
     height: auto;
     border-radius: 50px;
 }
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 1280px) {
+    .form-and-img-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .form-div-contact-us {
+        width: 50%;
+        height: auto;
+    }
+
+    .img-div-contact-us {
+        width: 50%;
+        height: auto;
+    }
+}*/
+@media screen and (max-width: 768px){
     .main-div-contact-us{
         width: 704px;
         height: 1236px;
@@ -178,5 +195,76 @@ input:focus {
         border-radius: 50px;
         width: 704px;
         height: 556px;
+        background-image: url(../img/7contact/contactm.jpg);
+    }
+}
+@media screen and (max-width: 375px){
+    .main-div-contact-us{
+    padding: 0px 20px;
+    width: 375px;
+    height: 1100px;
+    }
+    .title-contact-us{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: var(--main);
+    }
+    .form-and-img-container{
+        width: 335px;
+        height: 1044px;
+    }
+    .form-div-contact-us{
+        border-radius: 30px;
+        padding: 48px 28px;
+        width: 335px;
+        height: 512px;
+    }
+    .form-contact-us{
+        width: 279px;
+        height: 416px;
+    }
+    .form-p-contact-us{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+    }
+    .form-group-name{
+        border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        padding: 12px 226px 12px 14px;
+        width: 279px;
+        height: 42px;
+    }
+    .form-group{
+        border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        padding: 12px 136px 12px 14px;
+        width: 279px;
+        height: 42px;
+    }
+    .form-group-two{
+        border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        padding: 12px 136px 54px 14px;
+        width: 279px;
+        height: 84px;
+    }
+    .btn-contact-us{
+        border-radius: 16px;
+        padding: 12px 50px;
+        width: 134px;
+        height: 42px;
+    }
+    .img-div-contact-us{
+        border-radius: 30px;
+        width: 335px;
+        height: 512px;
+        background-image: url(../img/7contact/contactt.jpg);
     }
 }
