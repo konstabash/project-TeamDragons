@@ -7,7 +7,7 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .catalog-list {
@@ -19,7 +19,6 @@
 .catalog-item {
   border-radius: 30px;
   background-color: #f3f3f3;
-  height: 414px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   padding: 24px 28px;
   display: flex;
@@ -27,6 +26,7 @@
 }
 
 .catalog-subtitle {
+  font-weight: 500;
   color: #0c0c0c;
   margin-bottom: 8px;
   font-size: 16px;
@@ -59,7 +59,6 @@
 }
 
 .catalog-wrapper {
-  width: 279px;
   margin-top: auto;
 }
 
@@ -70,13 +69,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-wrapper {
-    width: 280px;
-  }
-
   .catalog-title {
     font-size: 48px;
     line-height: 92%;
+    font-weight: 600;
   }
   .catalog-list {
     gap: 16px;
@@ -88,7 +84,7 @@
   }
 
   .catalog-item {
-    width: calc((100% - 32px) / 2);
+    width: calc((100% - 16px) / 2);
     padding: 24px 32px;
   }
 
@@ -104,10 +100,6 @@
   }
 
   .catalog-item {
-    width: calc((100% - 69px) / 3);
-  }
-
-  .catalog-wrapper {
-    width: 304px;
+    width: calc((100% - 46px) / 3);
   }
 }
