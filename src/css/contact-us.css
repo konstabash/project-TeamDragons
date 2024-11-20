@@ -99,11 +99,9 @@ input:focus {
 
 .img-div-contact-us {
     border-radius: 30px;
-    width: 100%;
     max-width: 335px;
 }
 
-.img-contact-us {}
 @media only screen and (min-width: 768px) {
     .main-div-contact-us{
         height: 1236px;
