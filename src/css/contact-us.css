@@ -155,14 +155,15 @@ input:focus {
         line-height: 0.91667;
         margin-bottom: 40px;
     }
+    .form-contact-us {
+        padding: 50px 60px;
+    }
     .form-p-contact-us{
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 32px;
     }
-    .form-contact-us{
-        padding: 50px 60px;
-    }
+    
     .form-group-name{
         padding: 16px 18px 16px 18px;
         margin-bottom: 18px;
