@@ -10,6 +10,7 @@ textarea {
     border: 0;
     background-color: #f3f3f3;
     resize: none;
+    overflow-y: scroll;
 }
 
 textarea:focus {
@@ -130,7 +131,7 @@ input:focus {
         padding: 16px 16px 16px 16px;
     }
     .form-group-two{
-        padding: 16px 16px 54px 16px;
+        padding: 16px;
     }
     .btn-contact-us{
         padding: 17px 63px;
@@ -174,7 +175,10 @@ input:focus {
     }
     .form-group-two{
         margin-bottom: 32px;
-        padding: 16px 16px 54px 16px;
+        height: 90px;
+    }
+    .form-textarea{
+        height: 60px;
     }
 
     .img-contact-us{
