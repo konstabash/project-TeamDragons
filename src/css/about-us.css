@@ -51,7 +51,7 @@ margin-bottom: 0;
 
 .img-about {
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 446px;
 }
 .about-info {
@@ -101,14 +101,14 @@ margin-bottom: 0;
  margin-top: 60px;
   }
   .img-about {
-    width: 704px;
+    max-width:704px;
     height: 512px;
   }
 }
 /* Desktop version */
 @media only screen and (min-width: 1280px) {
   .about-info {
-    width: 580px;
+    max-width: 580px;
     height: 532px;
   }
   .img-about {
