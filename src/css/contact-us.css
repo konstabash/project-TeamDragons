@@ -10,7 +10,6 @@ textarea {
   border: 0;
   background-color: #f3f3f3;
   resize: none;
-  overflow-y: scroll;
 }
 
 textarea:focus {
