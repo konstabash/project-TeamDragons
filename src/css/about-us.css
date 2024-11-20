@@ -1,0 +1,119 @@
+/* mobile version */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 28px;
+}
+
+.about-item {
+  margin: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about-item.last {
+  margin-bottom: 0;
+}
+
+.btn-about {
+  border-radius: 16px;
+  height: 48px;
+  width: 160px;
+  text-align: center;
+  background-color: #3350e9;
+  color: #fbfbfb;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  padding-top: 15px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-about:hover,
+.btn-about:focus {
+  background-color: #1f3cd4;
+}
+
+.img-about {
+  border-radius: 30px;
+}
+.about-info {
+  border-radius: 30px;
+
+  background-color: #f3f3f3;
+
+  max-width: 335px;
+}
+
+/* Tablet Version */
+
+@media only screen and (min-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about-info {
+    border-radius: 50px;
+    max-width: 704px;
+  }
+  .about-title {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+    letter-spacing: -2%;
+    color: var(--main);
+    padding-top: 80px;
+    margin-left: 60px;
+  }
+
+  .about-item {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .about-description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+  }
+  .btn-about {
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .img-about {
+    max-width: 704px;
+    height: 512px;
+  }
+}
+/* Desktop version */
+@media only screen and (min-width: 1280px) {
+  .about-info {
+    max-width: 580px;
+  }
+  .img-about {
+    max-width: 530px;
+    height: 532px;
+  }
+  .about-container {
+    flex-direction: row;
+  }
+  .btn-about {
+    margin-top: 40px;
+  }
+}
