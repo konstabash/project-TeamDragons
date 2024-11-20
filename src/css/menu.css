@@ -1,0 +1,153 @@
+@media screen and (min-width: 1280px) {
+  .mobile-menu-container {
+    display: none;
+  }
+}
+.mobile-menu-container.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.mobile-menu-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  height: 100%;
+  z-index: 999;
+  visibility: hidden;
+  background-color: #2e2f4266;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 39px;
+  padding-right: 39px;
+  padding-bottom: 40px;
+  width: 200px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #110e0b;
+  background-image: url(/img/8modal/modalm.jpg);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: url(/img/8modal/modalm2x.jpg);
+  }
+}
+.mobile-menu-close {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.button-svg {
+  stroke: #fbfbfb;
+}
+.mobile-menu-menu {
+  display: flex;
+  gap: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mobile-menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fbfbfb;
+  position: relative;
+  text-align: center;
+}
+.mobile-menu-link:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #3350e9;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-link:hover:before,
+.mobile-menu-link:focus:before {
+  opacity: 1;
+}
+.mobile-menu-icons {
+  fill: #fbfbfbcc;
+}
+.mobile-menu-social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mobile-menu-social-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  color: transparent;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    width: 330px;
+    padding-left: 101px;
+    padding-right: 101px;
+    padding-bottom: 50px;
+    background-image: url(/img/8modal/modalt.jpg);
+  }
+  .mobile-menu-social-link {
+    width: 36px;
+    height: 36px;
+  }
+  .mobile-menu-icons {
+    width: 40px;
+    height: 20px;
+  }
+  .mobile-menu-menu {
+    gap: 32px;
+    margin-top: auto;
+  }
+  .mobile-menu-close {
+    top: 26px;
+    height: 40px;
+    right: 32px;
+    width: 40px;
+  }
+  .button-svg {
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-resolution: 192dpi) {
+    .mobile-menu {
+      background-image: url(/img/8modal/modalt2x.jpg);
+    }
+  }
+}
