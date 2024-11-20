@@ -1,50 +1,85 @@
 <section class="Contact-us section" id="contact-us">
-    <div class="main-div-contact-us container">
-        <h2 class="title-contact-us">Contact Us</h2>
-        <div class="form-and-img-container">
-            <div class="form-div-contact-us">
-                <form class="form-contact-us">
-                    <p class="form-p-contact-us">Please use the form below to contact us. Enter your name, email, phone,
-                        and
-                        message and we'll get back to you shortly.</p>
-                    <div class="form-group-name">
-                        <input type="text" id="user-name" name="user-name" class="form-input" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="user-email" name="user-email" class="form-input" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="user-phone" name="user-phone" class="form-input" placeholder="+380">
-                    </div>
-                    <div class="form-group-two">
-                        <textarea  id="user-comment" name="user-comment" class="form-textarea"
-                            placeholder="Comment"></textarea>
-                    </div>
-                    <button type="submit" class="btn-contact-us">Send</button>
-                </form>
-            </div>
-            <div class="img-div-contact-us">
-                <picture>
-                    <source srcset="
-                    /img/7contact/contactd.jpg 1x,
-                    /img/7contact/contactd2x.jpg 2x
-                    " 
-                    media="(min-width: 1280px)" />
-                    <source srcset="
-                    /img/7contact/contactt.jpg 1x,
-                    /img/7contact/contactt2x.jpg 2x
-                    " 
-                    media="(min-width: 768px)" />
-                    <source srcset="
-                    /img/7contact/contactm.jpg 1x, 
-                    /img/7contact/contactm2x.jpg 2x
-                    " 
-                    media="(max-width: 767px)" />
-                    <img src="/img/7contact/contactm.jpg" 
-                    alt="Image Contact Us" 
-                    class="img-contact-us" />
-                </picture>
-            </div>
-        </div>
+  <div class="main-div-contact-us container">
+    <h2 class="title-contact-us">Contact Us</h2>
+    <div class="form-and-img-container">
+      <div class="form-div-contact-us">
+        <form class="form-contact-us">
+          <p class="form-p-contact-us">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <div class="form-group-name">
+            <label for="user-name"></label>
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              class="form-input"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="user-email"></label>
+            <input
+              type="email"
+              id="user-email"
+              name="user-email"
+              class="form-input"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="user-phone"></label>
+            <input
+              type="tel"
+              id="user-phone"
+              name="user-phone"
+              class="form-input"
+              placeholder="+380"
+            />
+          </div>
+          <div class="form-group-two">
+            <label for="user-comment"></label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              class="form-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-contact-us">Send</button>
+        </form>
+      </div>
+      <div class="img-div-contact-us">
+        <picture>
+          <source
+            srcset="
+              /img/7contact/contactd.jpg   1x,
+              /img/7contact/contactd2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /img/7contact/contactt.jpg   1x,
+              /img/7contact/contactt2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/7contact/contactm.jpg   1x,
+              /img/7contact/contactm2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/7contact/contactm.jpg"
+            alt="Image Contact Us"
+            class="img-contact-us"
+          />
+        </picture>
+      </div>
     </div>
+  </div>
 </section>
