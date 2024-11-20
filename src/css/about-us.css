@@ -1,9 +1,7 @@
-
-.about-container { 
-display: flex;
+.about-container {
+  display: flex;
   flex-direction: column;
-gap: 20px
-;
+  gap: 20px;
 }
 .about-title {
   font-family: var(--font-family);
@@ -18,7 +16,7 @@ gap: 20px
 }
 .about-list {
 }
-.about-item {
+.about-item  {
   margin: 20px;
   font-family: var(--font-family);
   font-weight: 500;
@@ -27,8 +25,13 @@ gap: 20px
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
-.about-description {
 
+.about-item.last{
+margin-bottom: 0;
+
+}
+
+.about-description {
 }
 .btn-about {
   border-radius: 16px;
@@ -39,10 +42,17 @@ gap: 20px
   color: #fbfbfb;
   margin-left: 20px;
   margin-top: 40px;
+  border: none;
 }
+.btn-about:hover,
+.btn-about:focus {
+  background-color: #1f3cd4;
+}
+
 .img-about {
-width: 335;
-height: 446;
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
 }
 .about-info {
   border-radius: 30px;
@@ -52,16 +62,14 @@ height: 446;
   width: 335px;
 }
 
-                                                           /* Tablet Version */
+/* Tablet Version */
 
 @media only screen and (min-width: 768px) {
-  .about-container { 
-flex-direction: column;
-gap: 40px
-;
-}
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
   .about-info {
-    
     border-radius: 50px;
     width: 704px;
     height: 512px;
@@ -69,13 +77,13 @@ gap: 40px
   .about-title {
     font-weight: 600;
     font-size: 48px;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
     letter-spacing: -2%;
     color: var(--main);
     padding-top: 80px;
     margin-left: 60px;
   }
- 
+
   .about-item {
     margin-left: 60px;
     margin-right: 60px;
@@ -90,24 +98,27 @@ gap: 40px
   }
   .btn-about {
     margin-left: 60px;
+ margin-top: 60px;
   }
   .img-about {
-  width: 704px;
-height: 512px;
-
+    width: 704px;
+    height: 512px;
+  }
 }
-}
-                                                                  /* Desktop version */
+/* Desktop version */
 @media only screen and (min-width: 1280px) {
   .about-info {
-  width: 580px;
-  height: 532px;
+    width: 580px;
+    height: 532px;
   }
-.img-about{
-width: 530px;
-height: 532px;
-}
- .about-container {
-flex-direction: row;
+  .img-about {
+    width: 530px;
+    height: 532px;
+  }
+  .about-container {
+    flex-direction: row;
+  }
+.btn-about{
+  margin-top: 40px;
 }
 }
