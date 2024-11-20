@@ -101,7 +101,7 @@ input:focus {
   line-height: 1.28571;
   color: #0c0c0c;
   width: 100%;
-  min-height: 84px;
+  min-height: 60px;
 }
 
 .btn-contact-us {
@@ -149,10 +149,11 @@ input:focus {
   }
   .form-group-two {
     padding: 16px;
+    margin-bottom: 32px;
   }
 
   .form-textarea {
-    min-height: 90px;
+    min-height: 58px;
   }
   .btn-contact-us {
     padding: 17px 63px;
