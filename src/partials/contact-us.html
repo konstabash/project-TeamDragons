@@ -1,5 +1,5 @@
 <section class="contact-us section">
-    <div class="main-div-contact-us">
+    <div class="main-div-contact-us container">
         <h2 class="title-contact-us">Contact Us</h2>
         <div class="form-and-img-container">
             <div class="form-div-contact-us">
@@ -24,7 +24,26 @@
                 </form>
             </div>
             <div class="img-div-contact-us">
-                <img src="../img/7contact/contactd.jpg" alt="Contact Us Image" class="img-contact-us">
+                <picture>
+                    <source srcset="
+                    /img/7contact/contactd.jpg 1x,
+                    /img/7contact/contactd2x.jpg 2x
+                    " 
+                    media="(min-width: 1280px)" />
+                    <source srcset="
+                    /img/7contact/contactt.jpg 1x,
+                    /img/7contact/contactt2x.jpg 2x
+                    " 
+                    media="(min-width: 768px)" />
+                    <source srcset="
+                    /img/7contact/contactm.jpg 1x, 
+                    /img7contact/contactm2x.jpg 2x
+                    " 
+                    media="(max-width: 767px)" />
+                    <img src="/img/7contact/contactm.jpg" 
+                    alt="Image Contact Us" 
+                    class="img-contact-us" />
+                </picture>
             </div>
         </div>
     </div>
