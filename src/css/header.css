@@ -40,7 +40,6 @@
   margin-bottom: auto;
   color: #0c0c0c;
 }
-
 @media only screen and (min-width: 1280px) {
   .hed-social-links {
     gap: 8px;
@@ -73,7 +72,7 @@
     width: 20px;
     height: 20px;
   }
-  .svg-header:hover{
+  .link-svg:hover{
     fill: #3350E9;
   }
 
