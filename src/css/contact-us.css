@@ -135,13 +135,17 @@ input:focus {
         width: 160px;
         height: 52px;
     }
+    .img-contact-us{
+        max-width: 704px;
+    }
 }
 @media only screen and (min-width: 1280px) {
     .form-and-img-container {
         flex-direction: row;
+        gap: 40px;
     }
     .form-div-contact-us{
-        gap: 40px;
+        max-width: 580px;
     }
     .title-contact-us{
         font-weight: 600;
@@ -153,6 +157,9 @@ input:focus {
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 32px;
+    }
+    .form-contact-us{
+        padding: 50px 60px;
     }
     .form-group-name{
         padding: 16px 18px 16px 18px;
@@ -168,5 +175,8 @@ input:focus {
     }
     .btn-contact-us{
         padding: 17px 63px;
+    }
+    .img-contact-us{
+        max-width: 530px;
     }
 }
