@@ -1,3 +1,9 @@
+@media screen and (min-width: 1280px) {
+  footer.container {
+    padding: 0 32px;
+  }
+}
+
 .footer-container {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -15,7 +21,6 @@
 .footer {
   position: relative;
   border-radius: 30px;
-  min-width: 320px;
   height: 581px;
   background-color: #0c0c0c;
   margin: 0 auto;
@@ -93,8 +98,8 @@
   }
 }
 
-.social-link:hover > .social-icon,
-.social-link:focus > .social-icon {
+.social-link:hover>.social-icon,
+.social-link:focus>.social-icon {
   fill: #fbfbfb;
   opacity: 1;
 }
@@ -184,6 +189,10 @@
   width: 147px;
   height: 64px;
   gap: 8px 16px;
+
+  @media screen and (max-width: 375px) {
+    margin-right: 15px;
+  }
 
   @media screen and (min-width: 768px) {
     width: 400px;
