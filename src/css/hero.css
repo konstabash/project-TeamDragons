@@ -1,0 +1,169 @@
+.hero-title {   
+font-size: 40px;
+line-height: 0.95;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-bottom: 20px;
+font-weight: 600;
+
+}
+.hero-title-part {
+    color: #3350e9;
+}
+.hero-descr {
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+margin-bottom: 28px;
+font-weight: 500;
+}
+.people-container {
+    display:flex;
+    margin-bottom: 28px;
+    justify-content: space-between;
+    
+   
+}
+.people-list {
+    display: flex;
+    align-items: center;
+   
+}
+
+.hero-person {
+    list-style: none;
+    border: 2px solid #fbfbfb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+
+
+}
+.hero-person img {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.hero-button {
+    font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #0c0c0c;
+min-width: 72px;
+height: 18px;
+display: block;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: #3350E9;
+}
+
+.button-container {
+    display:flex;
+    align-items: flex-end;
+}
+ 
+
+.hero-person:not(:first-child) {  
+    margin-left: -12px; 
+  
+    
+}  
+.hero-image {
+     width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    
+    .container-part {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-content-wrapper {
+        width: 557px;
+        
+        
+    }
+    
+    .hero-title {
+        font-weight: 600;
+font-size: 70px;
+line-height: 0.85714;
+
+
+    }
+    .hero-descr {
+font-size: 16px;
+line-height: 1.25;
+margin-bottom: 40px;
+width: 480px;
+
+    }
+    
+    .hero-person:not(:first-child) {  
+    margin-left: -15px; 
+}  
+
+
+
+    .people-list {
+        align-items: normal;
+        
+    }
+    .people-container {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 11px; 
+        margin-bottom: 40px;
+        max-width: 136px;
+    }
+    .hero-person img {
+        width: 56px;
+        height: 56px;
+    }
+     .hero-image {
+        border-radius: 50px;
+     }
+
+.button-container {
+    margin-left: 34px;
+}
+.hero-button {
+font-weight: 500;
+font-size: 20px;
+line-height: 1;
+}
+}
+@media screen and (min-width: 1280px) {
+    .hero-section {
+        padding-top: 80px;
+    }
+    .hero-title {       
+font-size: 72px;
+width: 597px;
+
+    }
+    .people-container {
+        max-width: 146px;
+    }
+.hero-person img {
+    width: 60px;
+    height: 60px;
+}
+
+
+    
+}
