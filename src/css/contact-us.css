@@ -24,6 +24,7 @@ input:focus {
     display: flex;
     flex-direction: column;
 }
+.btn-contact-us{}
 .title-contact-us {
     font-weight: 600;
     font-size: 32px;
