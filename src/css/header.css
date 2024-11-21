@@ -1,4 +1,4 @@
-.header{
+.header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 .hed-social-links {
@@ -15,9 +15,6 @@
   line-height: 0;
   display: block;
 }
-  
-  
-
 
 .header {
   display: flex;
@@ -39,54 +36,16 @@
   margin-top: auto;
   margin-bottom: auto;
   color: #0c0c0c;
-}
-@media only screen and (min-width: 1280px) {
-  .hed-social-links {
-    gap: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-  }
-  .nav {
-    display: block;
-  }
-  .header-btn {
-    display: none;
-  }
-  .social-item{
-    justify-content: center;
-    align-items: center;  
-    border: 1px solid rgba(12, 12, 12, 0.1);
-    border-radius: 10px;
-    padding: 8px;
-    width: 36px;
-    height: 36px;
-  }
-  .social-item:hover {
-    border: 1px solid rgba(51, 80, 233, 0.1);
-  }
-
-  .svg-header{
-    opacity: 0.8;
-    width: 20px;
-    height: 20px;
-  }
-  .link-svg:hover{
-    fill: #3350E9;
-  }
-
+  font-size: 16px;
 }
 
-
-.burger-a{
+.burger-a {
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
-
 }
-.svg-burger{
+.svg-burger {
   stroke: #0c0c0c;
 }
 .hed-home-item {
@@ -110,4 +69,53 @@
   width: 36px;
 }
 
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 26px 32px;
+  }
 
+  .hed-logo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    padding: 26px 64px;
+  }
+  .hed-social-links {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .nav {
+    display: block;
+  }
+  .header-btn {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .social-item {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+  .social-item:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+    fill: #3350e9;
+  }
+
+  .svg-header {
+    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+  }
+}
