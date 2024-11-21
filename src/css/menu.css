@@ -3,27 +3,32 @@
     display: none;
   }
 }
-.mobile-menu-container.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
 .mobile-menu-container {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+
   opacity: 0;
   height: 100%;
   z-index: 999;
   visibility: hidden;
   background-color: #2e2f4266;
+  pointer-events: none;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mobile-menu-container.is-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .mobile-menu {
   display: flex;
   flex-direction: column;
