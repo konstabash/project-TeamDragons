@@ -1,5 +1,10 @@
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .hed-social-links {
   display: none;
@@ -14,12 +19,6 @@
   fill: #2f2f37;
   line-height: 0;
   display: block;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
 }
 
 .hed-links {
@@ -75,7 +74,8 @@
 
 @media only screen and (min-width: 768px) {
   .header {
-    padding: 26px 32px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .hed-logo {
@@ -84,9 +84,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .header {
-    padding: 26px 64px;
-  }
   .hed-social-links {
     gap: 8px;
     display: flex;
@@ -102,7 +99,7 @@
     visibility: hidden;
     pointer-events: none;
   }
-  .social-item {
+  /* .social-item {
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(12, 12, 12, 0.1);
@@ -111,10 +108,28 @@
     width: 36px;
     height: 36px;
     cursor: pointer;
+  } */
+
+  .link-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .social-item:hover {
+
+  .link-svg:hover {
     border: 1px solid rgba(51, 80, 233, 0.1);
     fill: #3350e9;
+  }
+
+  .link-svg:focus {
+    fill: #3350e9;
+    border: 1px solid rgba(51, 80, 233, 0.1);
+    outline: transparent;
   }
 
   .svg-header {

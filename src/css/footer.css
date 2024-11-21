@@ -43,7 +43,7 @@
 }
 
 .footer-logo {
-  display: flex;
+  display: inline-block;
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #fbfbfb;
@@ -98,10 +98,11 @@
   }
 }
 
-.social-link:hover>.social-icon,
-.social-link:focus>.social-icon {
+.social-link:hover > .social-icon,
+.social-link:focus > .social-icon {
   fill: #fbfbfb;
   opacity: 1;
+  outline: transparent;
 }
 
 .footer-phone {
