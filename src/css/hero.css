@@ -8,7 +8,7 @@
 }
 
 .hero-section {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .hero-title-part {
@@ -82,6 +82,10 @@
   .container-part {
     display: flex;
     justify-content: space-between;
+  }
+
+  .hero-section {
+    padding-top: 80px;
   }
   .hero-content-wrapper {
     width: 557px;
